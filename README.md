@@ -1,3 +1,4 @@
+```bash
 AbyMarket - a Kazakhstan-based branch of a large e-commerce marketplace connecting sellers and buyers across the country.
 
 This project is focused on performing data analytics for AbyMarket using sales, payments, customer, and review data. The goal is to identify trends in customer behavior, product categories, order statuses, and satisfaction, in order to support data-driven decision-making and improve business performance.
