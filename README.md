@@ -1,13 +1,13 @@
-AbyMarket - a Kazakhstan-based branch of a large e-commerce marketplace connecting sellers and buyers across the country.
+**AbyMarket** - a Kazakhstan-based branch of a large e-commerce marketplace connecting sellers and buyers across the country.
 
 This project is focused on performing data analytics for AbyMarket using sales, payments, customer, and review data. The goal is to identify trends in customer behavior, product categories, order statuses, and satisfaction, in order to support data-driven decision-making and improve business performance.
 
 Analysis:
-https://github.com/AbylaiMaster/Data-Visualization/blob/main/ERD.png
+[image](https://github.com/AbylaiMaster/Data-Visualization/blob/main/ERD.png)
 
 How to Run the Project
 
-1. Prerequisites
+### 1. Prerequisites
 - Python 3.8+
 - PostgreSQL installed and running
 - Required Python libraries
