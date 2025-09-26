@@ -32,13 +32,13 @@ You can import them from CSV files using PostgreSQL's COPY command or a tool lik
 Open analysis.py and update the PostgreSQL connection parameters:
 conn = psycopg2.connect(
     host="localhost",
-    port="5432",
+    port="5433",
     dbname="your_database_name",
     user="your_username",
     password="your_password"
 )
 5. Run the Analytics Script
-python analysis.py
+python code.py
 The script will connect to your PostgreSQL database and print the results of 10 analytical queries to the terminal.
 
 6. Tools and Resources Used
