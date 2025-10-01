@@ -6,12 +6,12 @@ This project is focused on performing data analytics for AbyMarket using sales, 
 
 ---
 
-## 📊 Analysis Overview
+## Analysis Overview
 
-- 📈 6 meaningful data visualizations using SQL with multiple JOINs (matplotlib)
-- 🕒 Interactive time slider chart using Plotly
-- 📥 Excel export with filters, conditional formatting, frozen headers, and color gradient
-- 📦 All data is queried from a PostgreSQL database using `psycopg2`
+- 6 meaningful data visualizations using SQL with multiple JOINs (matplotlib)
+- Interactive time slider chart using Plotly
+- Excel export with filters, conditional formatting, frozen headers, and color gradient
+- All data is queried from a PostgreSQL database using `psycopg2`
 
 ---
 
@@ -101,7 +101,3 @@ The script will:
 
 Olist Dataset:  
 [Olist Brazilian E-Commerce Public Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-
----
-
-> Built with ❤️ by [AbylaiMaster](https://github.com/AbylaiMaster)

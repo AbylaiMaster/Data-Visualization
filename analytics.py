@@ -47,12 +47,13 @@ queries = {
     """,
 
     "pie_chart": """
-        SELECT payment_type,
-               COUNT(*) AS count
+        SELECT p.payment_type,
+                SUM(oi.price + oi.freight_value) AS total_paid
         FROM olist_order_payments_dataset p
         JOIN olist_orders_dataset o ON p.order_id = o.order_id
         JOIN olist_order_items_dataset oi ON o.order_id = oi.order_id
-        GROUP BY payment_type;
+        GROUP BY p.payment_type;
+
     """,
 
     "hist_chart": """
@@ -116,7 +117,7 @@ for chart_type, query in queries.items():
         plt.clf()
 
     elif chart_type == "pie_chart":
-        df.set_index('payment_type')['count'].plot.pie(autopct='%1.1f%%', title="Payment Method Distribution")
+        df.set_index('payment_type')['count'].plot.pie(autopct='%1.1f%%', title="Amount of money spent by payment method")
         plt.ylabel("")
         plt.tight_layout()
         plt.savefig("charts/pie_chart.png")
